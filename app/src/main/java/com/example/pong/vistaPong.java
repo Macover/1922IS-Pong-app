@@ -22,7 +22,7 @@ class vistaPong extends SurfaceView implements Runnable{
 
     long mFPS;
 
-    
+
     int mScreenX;
     int mScreenY;
 

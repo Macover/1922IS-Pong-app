@@ -8,7 +8,7 @@ import android.view.Display;
 
 public class MainActivity extends AppCompatActivity {
 
-    VistaPong vistaPong;
+    vistaPong vistaPong;
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -16,7 +16,7 @@ public class MainActivity extends AppCompatActivity {
         Display display = getWindowManager().getDefaultDisplay();
         Point tamanio = new Point();
         display.getSize(tamanio);
-        vistaPong = new VistaPong(this, tamanio.x, tamanio.y);
+        vistaPong = new vistaPong(this, tamanio.x, tamanio.y);
         setContentView(vistaPong);
     }
     @Override
